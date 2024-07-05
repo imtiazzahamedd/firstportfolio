@@ -1,0 +1,54 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 51px;
+}
+
+.text-primary {
+    color: rgb(253, 110, 10);
+}
+
+.marry {
+
+    width: 121px;
+    height: 61px;
+
+
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.btn {
+    border-radius: 5px;
+    border: 0;
+
+    background: rgb(253, 110, 10);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+ 
+
+}
