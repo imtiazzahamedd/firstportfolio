@@ -6,6 +6,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 220px;
 }
 
 nav>ul {
@@ -51,4 +52,13 @@ nav a {
     padding: 15px 35px;
  
 
+}
+.banner{
+    background-color: rgb(255, 248, 243);
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.pro-pic{
+width: 500px;
 }
