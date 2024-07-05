@@ -50,15 +50,80 @@ nav a {
     font-weight: 700;
     color: white;
     padding: 15px 35px;
- 
+
 
 }
-.banner{
+
+.banner {
     background-color: rgb(255, 248, 243);
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
 }
-.pro-pic{
-width: 500px;
+
+.pro-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    color: rgb(71, 71, 71);
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-heading {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+.banner-des {
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+#dc {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#ct {
+    margin-top: 30px;
+}
+
+.banner-content {
+    min-width: 500px;
+}
+
+.about {
+    min-width: 1140px;
+    border-radius: 10px;
+
+    background: rgb(255, 248, 243);
+    margin: 130px 0px;
+}
+
+.about-me {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.abt-details{
+    color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
 }
